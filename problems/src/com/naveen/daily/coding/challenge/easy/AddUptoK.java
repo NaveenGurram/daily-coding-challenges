@@ -3,6 +3,7 @@ package com.naveen.daily.coding.challenge.easy;
 import java.util.HashSet;
 import java.util.Set;
 
+
 /**
  * <p>This problem was recently asked by Google.
  *
@@ -17,7 +18,7 @@ public class AddUptoK {
   // runtime - o(n), space - o(n)
   public static void main(String[] args) {
     int numbers[] = new int[] {10, 15, 3, 7};
-    int k = 19;
+    int k = 17;
     System.out.println(checkAddUptoK(numbers, k));
   }
 
